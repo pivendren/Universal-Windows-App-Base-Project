@@ -1,0 +1,109 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BaseWinrtUniversalTemplate", "BaseWinrtUniversalTemplate", "{62F9F721-FD65-4C4A-BA3D-A45277DF5E74}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "BaseWinrtUniversalTemplate.Shared", "BaseWinrtUniversalTemplate\BaseWinrtUniversalTemplate.Shared\BaseWinrtUniversalTemplate.Shared.shproj", "{B47B705D-7335-45A1-91EB-A3D3CDB5A0CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseWinrtUniversalTemplate.Windows", "BaseWinrtUniversalTemplate\BaseWinrtUniversalTemplate.Windows\BaseWinrtUniversalTemplate.Windows.csproj", "{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BaseWinrtUniversalTemplate.WindowsPhone", "BaseWinrtUniversalTemplate\BaseWinrtUniversalTemplate.WindowsPhone\BaseWinrtUniversalTemplate.WindowsPhone.csproj", "{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		BaseWinrtUniversalTemplate\BaseWinrtUniversalTemplate.Shared\BaseWinrtUniversalTemplate.Shared.projitems*{880ae3dc-9b5b-4f5c-9cba-37a738f97832}*SharedItemsImports = 4
+		BaseWinrtUniversalTemplate\BaseWinrtUniversalTemplate.Shared\BaseWinrtUniversalTemplate.Shared.projitems*{b47b705d-7335-45a1-91eb-a3d3cdb5a0cd}*SharedItemsImports = 13
+		BaseWinrtUniversalTemplate\BaseWinrtUniversalTemplate.Shared\BaseWinrtUniversalTemplate.Shared.projitems*{b08ea72d-5669-4fc2-9793-9f5fa52fed7b}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://pivendren.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = BaseWinrtUniversalTemplate\\BaseWinrtUniversalTemplate.Shared\\BaseWinrtUniversalTemplate.Shared.projitems
+		SccProjectTopLevelParentUniqueName1 = BaseWinrtUniversalTemplate.sln
+		SccProjectName1 = BaseWinrtUniversalTemplate/BaseWinrtUniversalTemplate.Shared
+		SccLocalPath1 = BaseWinrtUniversalTemplate\\BaseWinrtUniversalTemplate.Shared
+		SccProjectUniqueName2 = BaseWinrtUniversalTemplate\\BaseWinrtUniversalTemplate.Shared\\BaseWinrtUniversalTemplate.Shared.shproj
+		SccProjectTopLevelParentUniqueName2 = BaseWinrtUniversalTemplate.sln
+		SccProjectName2 = BaseWinrtUniversalTemplate/BaseWinrtUniversalTemplate.Shared
+		SccLocalPath2 = BaseWinrtUniversalTemplate\\BaseWinrtUniversalTemplate.Shared
+		SccProjectUniqueName3 = BaseWinrtUniversalTemplate\\BaseWinrtUniversalTemplate.Windows\\BaseWinrtUniversalTemplate.Windows.csproj
+		SccProjectTopLevelParentUniqueName3 = BaseWinrtUniversalTemplate.sln
+		SccProjectName3 = BaseWinrtUniversalTemplate/BaseWinrtUniversalTemplate.Windows
+		SccLocalPath3 = BaseWinrtUniversalTemplate\\BaseWinrtUniversalTemplate.Windows
+		SccProjectUniqueName4 = BaseWinrtUniversalTemplate\\BaseWinrtUniversalTemplate.WindowsPhone\\BaseWinrtUniversalTemplate.WindowsPhone.csproj
+		SccProjectTopLevelParentUniqueName4 = BaseWinrtUniversalTemplate.sln
+		SccProjectName4 = BaseWinrtUniversalTemplate/BaseWinrtUniversalTemplate.WindowsPhone
+		SccLocalPath4 = BaseWinrtUniversalTemplate\\BaseWinrtUniversalTemplate.WindowsPhone
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 5424726c-cacb-4a94-aaee-e7391993f8d4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Debug|ARM.ActiveCfg = Debug|ARM
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Debug|ARM.Build.0 = Debug|ARM
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Debug|ARM.Deploy.0 = Debug|ARM
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Debug|x64.ActiveCfg = Debug|x64
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Debug|x64.Build.0 = Debug|x64
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Debug|x64.Deploy.0 = Debug|x64
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Debug|x86.ActiveCfg = Debug|x86
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Debug|x86.Build.0 = Debug|x86
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Debug|x86.Deploy.0 = Debug|x86
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Release|ARM.ActiveCfg = Release|ARM
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Release|ARM.Build.0 = Release|ARM
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Release|ARM.Deploy.0 = Release|ARM
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Release|x64.ActiveCfg = Release|x64
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Release|x64.Build.0 = Release|x64
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Release|x64.Deploy.0 = Release|x64
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Release|x86.ActiveCfg = Release|x86
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Release|x86.Build.0 = Release|x86
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832}.Release|x86.Deploy.0 = Release|x86
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}.Debug|ARM.ActiveCfg = Debug|ARM
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}.Debug|ARM.Build.0 = Debug|ARM
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}.Debug|ARM.Deploy.0 = Debug|ARM
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}.Debug|x86.ActiveCfg = Debug|x86
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}.Debug|x86.Build.0 = Debug|x86
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}.Debug|x86.Deploy.0 = Debug|x86
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}.Release|ARM.ActiveCfg = Release|ARM
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}.Release|ARM.Build.0 = Release|ARM
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}.Release|ARM.Deploy.0 = Release|ARM
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}.Release|x64.ActiveCfg = Release|Any CPU
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}.Release|x86.ActiveCfg = Release|x86
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}.Release|x86.Build.0 = Release|x86
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B}.Release|x86.Deploy.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B47B705D-7335-45A1-91EB-A3D3CDB5A0CD} = {62F9F721-FD65-4C4A-BA3D-A45277DF5E74}
+		{880AE3DC-9B5B-4F5C-9CBA-37A738F97832} = {62F9F721-FD65-4C4A-BA3D-A45277DF5E74}
+		{B08EA72D-5669-4FC2-9793-9F5FA52FED7B} = {62F9F721-FD65-4C4A-BA3D-A45277DF5E74}
+	EndGlobalSection
+EndGlobal
